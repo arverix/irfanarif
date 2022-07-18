@@ -109,7 +109,7 @@ a {
   color: #03dac6;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .nav-tab:hover {
@@ -294,6 +294,18 @@ h3 {
 .bottom-container {
   background-color: #66BFBF;
   padding: 20px 0 20px;
+}
+
+.icons {
+  width: 100;
+  height: auto;
+  fill: #ff0266;
+}
+
+.icons:hover {
+  fill:royalblue;
+  transition: 0.5s ease-in-out;
+  transform: rotate(360deg);
 }
 
 .footer-link {
