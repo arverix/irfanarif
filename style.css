@@ -38,12 +38,13 @@ h1:hover {
 }
 
 .slider h2 {
-  font-size: 2vw;
-  letter-spacing: 0.3rem;
+  font-size: 1em;
+  /* letter-spacing: 0.3rem; */
   font-family: "ROBOTO", sans-serif;
   font-weight: 300;
   color: #faebd7;
   z-index: 4;
+  line-height: 1.4;
 }
 
 .button1 {
@@ -138,11 +139,6 @@ a {
   .nav h1,
   .slider h1 {
     font-size: 5vw;
-  }
-
-  .nav h2,
-  .slider h2 {
-    font-size: 3vw;
   }
 
   .nav-tab {
@@ -277,11 +273,13 @@ a {
 }
 
 p {
+  ffont-family: "ROBOTO", sans-serif;
   line-height: 1.4;
   color: aliceblue;
 }
 
 h3 {
+  font-family: "ROBOTO", sans-serif;
   padding-bottom: 10px;
   color: #11999E;
 }
@@ -294,7 +292,7 @@ h3 {
   border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1em;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
