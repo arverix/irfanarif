@@ -8,6 +8,19 @@ body {
   font-family: "ROBOTO", sans-serif;
 }
 
+.container {
+  /* background: rgba(255,255,255,0.1); // transparent white */
+    /* background: #fff; // Left as a fallback for older browsers */
+    color: #FFFFFF;
+  padding-top: 20px;
+}
+
+.image-project {
+    max-width: 30%;
+    max-height: auto;
+    padding-bottom: 10px;
+}
+
 .nav,
 .slider {
   display: flex;
